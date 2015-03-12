@@ -1,0 +1,12 @@
+<div {{#if_eq statusCode "paid"}} class="layoutContent__row" {{/if_eq}}>
+    {{#if_eq statusCode "paid"}}
+        <div class="layoutContent">
+            <div class="layoutContent__header">
+                <h2 class="layoutContent__headerText">Документы</h2>
+            </div>
+            <div class="contentListItems__content"><!-- will be inserted documents list --></div>
+        </div>
+    {{else}}
+        <div class="contentListItems__content"></div><!-- @we need class selector ".contentListItems__content" for wirejs work -->
+    {{/if_eq}}
+</div>

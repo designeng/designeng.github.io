@@ -1,0 +1,69 @@
+<form class="searchForm" name="searchOrderForm">
+
+    <div class="searchForm__list">
+        <div class="searchForm__listCell">
+            <label class="formInput">
+                <span class="formInput__field">
+                    <input class="formInput__input" type="text" name="lastName" placeholder="Фамилия пассажира, как в заказе" maxlength="30" />
+                </span>
+                <ul class="formInput__state">
+                    <li class="formInput__state_airport"></li>
+                    <li class="formInput__state_error"></li>
+                    <li class="formInput__state_success"></li>
+                    <li class="formInput__state_loading"></li>
+                </ul>
+            </label>
+        </div>
+    </div>
+
+    <div class="searchForm__list">
+        <div class="searchForm__listCell">
+            <label class="formInput">
+                <span class="formInput__field">
+                    <input class="formInput__input" type="text" name="cpid" placeholder="Номер заказа" />
+                </span>
+                <ul class="formInput__state">
+                    <li class="formInput__state_airport"></li>
+                    <li class="formInput__state_error"></li>
+                    <li class="formInput__state_success"></li>
+                    <li class="formInput__state_loading"></li>
+                </ul>
+            </label>
+        </div>
+    </div>
+
+    <div class="searchForm__list">
+        <div class="searchForm__listCell">
+            <label class="formInput">
+                <span class="formInput__field">
+                    <input class="formInput__input" type="text" name="secretCode" maxlength="6" placeholder="Секретный код" />
+                </span>
+                <ul class="formInput__state">
+                    <li class="formInput__state_airport"></li>
+                    <li class="formInput__state_error"></li>
+                    <li class="formInput__state_success"></li>
+                    <li class="formInput__state_loading"></li>
+                </ul>
+            </label>
+        </div>
+        <div class="searchForm__listCell"></div>
+    </div>
+
+
+    <div class="searchForm__list">
+        <div class="searchForm__listRow">
+            <button class="bigButton">Найти заказ</button>
+        </div>
+    </div>
+
+    <div class="searchForm__list">
+        <div class="searchForm__listRow">
+            <a href="/" class="searchForm__link">Полная версия</a>
+        </div>
+    </div>
+
+    <!-- TODO: form validation errors layer, wrapper for errorReporter should be moved to index.html or in separate component -->
+    <div class="searchForm__list">
+        <div class="searchForm__listRow errorReporter"></div>
+    </div>
+</form>

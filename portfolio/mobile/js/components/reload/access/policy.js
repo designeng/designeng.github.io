@@ -1,0 +1,1 @@
+define(["core/util/order/orderHistory"],function(e){var t;return t=function(){function t(){}return t.prototype.checkAccess=function(){return!1},t.prototype.getRedirect=function(){var t;return t=e.getLastOrderCpid(),"/order/info/"+t},t}()});

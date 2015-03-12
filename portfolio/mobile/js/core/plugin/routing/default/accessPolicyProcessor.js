@@ -1,0 +1,1 @@
+define(["core/util/navigation/navigate"],function(e){var t;return t=function(){function t(){}return t.prototype.askForAccess=function(t){var n;return t.accessPolicy!=null?(n=t.accessPolicy.checkAccess(),n?!0:(t.accessPolicy.getRedirect!=null&&(t.__environmentVars.replaceable?e(t.accessPolicy.getRedirect(),"replace"):e(t.accessPolicy.getRedirect())),!1)):!0},t}()});

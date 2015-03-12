@@ -1,0 +1,49 @@
+<label class="formSelect {{#if state}}formSelect__state_show_{{ state }}{{/if}}">
+
+    <span class="formSelect__field {{#if_eq options.length 1}}formSelect__single{{/if_eq}}">
+        <select class="formSelect__select {{#if selectedOption}}formSelect__selectApply{{/if}}" 
+                {{#if_eq options.length 1}}disabled="disabled"{{/if_eq}}
+
+                id="{{ id }}" 
+                name="{{ name }}" 
+                type="select" 
+                onchange="var subClass=' formSelect__selectApply';this.className=this.className+subClass;">
+
+            {{#if_eq options.length 1}}
+
+                {{#each options}}
+                    {{#if this.name}}
+                        <option value="{{ this.id }}" selected="selected">{{ this.name }}</option>
+                    {{else}}
+                        <option value="{{ this }}" selected="selected">{{ this }}</option>
+                    {{/if}}
+                {{/each}}
+
+            {{else}}
+                <option 
+                    value="" 
+                    disabled="disabled" 
+                    selected="selected" 
+                    {{#if selectedOption}}{{else}}selected="selected"{{/if}}>{{ placeholder }}
+                </option>
+
+                {{#each options}}
+                    {{#if this.name}}
+                        {{#if_eq this.name 'break'}}
+                            <option disabled="disabled"></option>
+                        {{else}}
+                            <option value="{{ this.id }}" {{#if_eq this.id ../../selectedOption}}selected="selected"{{/if_eq}} >{{ this.name }}</option>
+                        {{/if_eq}}
+                    {{else}}
+                        <option value="{{ this }}"    {{#if_eq this ../../selectedOption}}selected="selected"{{/if_eq}} >{{ this }}</option>
+                    {{/if}}
+                {{/each}}
+            {{/if_eq}}
+        </select>
+    </span>
+
+    <ul class="formSelect__state">
+        <li class="formSelect__state_error"></li>
+        <li class="formSelect__state_success"></li>
+    </ul>
+</label>

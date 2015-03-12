@@ -1,0 +1,61 @@
+<div class="layoutContent">
+    <div class="layoutContent__header">
+        <h2 class="layoutContent__headerText">
+            {{ pageTitle }}
+            <span class="cpid">{{ cpid }}</span>
+        </h2>
+        <h3 class="layoutContent__headerContact">{{ customerEmail }}</h3>
+        <h3 class="layoutContent__headerContact">{{{ customerPhone }}}</h3>
+    </div>
+
+    <ul class="contentList">
+        <li class="contentList__item">
+            <div href="" class="contentList__itemContent">
+                <span class="contentList__itemContentLabel">Код брони</span>
+                <a class="contentList__itemContentValue contentList__itemContentValue_type_link" href="{{ href }}">{{ bookingCode }}</a>
+            </div>
+        </li>
+        <li class="contentList__item">
+            <div class="contentList__itemContent">
+                <span class="contentList__itemContentLabel">Статус заказа</span>
+                <span class="contentList__itemContentValue contentList__itemContentValue_type_{{ statusType }}">{{ status }}</span>
+            </div>
+        </li>
+        <li class="contentList__item aviaTiketsPriceItem">
+            <div class="contentList__itemContent contentList__itemContent_type_slotLink">
+                <span class="contentList__itemContentLabel">Стоимость авиабилетов</span>
+                <span class="contentList__itemContentValue">
+                    <span class="priceRub">
+                        <span class="priceRub__el">{{ airFare }}</span><span class="priceRub__rub">p</span>
+                    </span>
+                </span>
+            </div>
+        </li>
+        <li class="contentList__item {{#if isAdditionalServicesEmpty}}contentList__item_state_hidden{{/if}} additionalServicesItem">
+            <div class="contentList__itemContent contentList__itemContent_type_slotLink additionalServices">
+                <span class="contentList__itemContentLabel">Дополнительные услуги</span>
+                <span class="contentList__itemContentValue">
+                    <span class="priceRub">
+                        <span class="priceRub__el">{{ additionalServicesPrice }}</span><span class="priceRub__rub">p</span>
+                    </span>
+                </span>
+
+            </div>
+        </li>
+
+        {{#if_eq statusCode "paid"}}
+            <li class="contentList__item contentList__item_type_price">
+                <div class="contentList__itemContent">
+                    <span class="contentList__itemContentLabel">{{ statusCodeText }}</span>
+                    <span class="contentList__itemContentValue contentList__itemContentValue_type_big">
+                        <span class="priceRub priceRub_type_big priceRub_icon_{{ paymentType }}">
+                            <span class="priceRub__el">{{ packTotalPrice }}</span><span class="priceRub__rub">p</span>
+                        </span>
+                    </span>
+                </div>
+                <div class="contentList__itemContent_type_price"></div>
+            </li>
+        {{/if_eq}}
+
+    </ul>
+</div>

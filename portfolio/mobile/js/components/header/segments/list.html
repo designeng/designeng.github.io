@@ -1,0 +1,12 @@
+<ul class="headerSegment__flight">
+	{{#each segments}}
+		<li class="headerSegment__flightItem">
+			<div class="headerSegment__flightItemSegment">
+				<span class="headerSegment__flightItemSegmentEl">{{ startCode }}</span>
+				<span class="headerSegment__flightItemSegmentEl">{{ endCode }}</span>
+			</div><div class="headerSegment__flightItemDate">
+				<span class="headerSegment__flightItemDateEl">{{ date }}</span>
+			</div>
+		</li>
+	{{/each}}
+</ul>

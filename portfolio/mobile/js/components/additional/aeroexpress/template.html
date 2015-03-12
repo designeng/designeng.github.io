@@ -1,0 +1,15 @@
+<div>
+    {{#if price}}
+        <div class="layoutContent__rowItem_additionals layoutContent__rowItem_type_aeroexpress">
+            <img class="layoutContent__rowItemImg layoutContent__rowItemImg_type_aeroexpress" src="/mobile/static/blocks/layoutContent/aeroexpress-icon.jpg" />
+            <ul class="priceList">
+                <li class="priceList__item">
+                    <h3 class="priceList__itemHeader insuranceName">билеты на Аэроэкспресс</h3>
+                    <span class="priceRub priceRub_type_mid priceList__itemPrice_type_aeroexpress">
+                        <span class="priceRub__el">{{ price }}</span><span class="priceRub__rub">p</span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    {{/if}}
+</div>

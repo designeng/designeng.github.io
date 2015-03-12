@@ -1,0 +1,1 @@
+define(["underscore"],function(e){var t,n,r;return t=function(t){return function(n){return e.find(n.validFor,{id:t,type:"personCategory"})}},r=function(e){return function(t){var n;return e==="1"?n=!0:n=!1,t.russian===n}},n=function(e){return function(t){return e?!0:t.validForInternationalFlights===!0}},{birthDate:t,citizenship:r,direction:n}});

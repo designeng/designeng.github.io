@@ -1,0 +1,47 @@
+<div class="layoutPage">
+    {{#each items}}
+        <div class="layoutContent__row layoutContent__row_type_person">
+            <ul class="personInfoList">
+                <li class="personInfoList__item">
+                    <span class="personInfoList__itemLabel">имя</span>
+                    <span class="personInfoList__itemLabel">фамилия</span>
+                    <p class="personInfoList__itemValue personInfoList__itemValue_name">{{ firstName }}</p>
+                    <p class="personInfoList__itemValue personInfoList__itemValue_name personInfoList__item_icon_type_{{ personCategoryType }}">
+                        <span class="personInfoList__itemValueText">{{ lastName }}</span>
+                    </p>
+                </li>
+
+                <li class="personInfoList__item">
+                    <span class="personInfoList__itemLabel">дата рождения</span>
+                    <p class="personInfoList__itemValue">{{ birthDate }}</p>
+                </li>
+                <li class="personInfoList__item">
+                    <span class="personInfoList__itemLabel">гражданство</span>
+                    <p class="personInfoList__itemValue">{{ citizenship }}</p>
+                </li>
+                <li class="personInfoList__item">
+                    <span class="personInfoList__itemLabel">{{ document.type }}</span>
+                    <p class="personInfoList__itemValue">{{ document.number }}</p>
+                </li>
+                {{#if document.expirationDate}}
+                    <li class="personInfoList__item">
+                        <span class="personInfoList__itemLabel">срок действия</span>
+                        <p class="personInfoList__itemValue">{{ document.expirationDate }}</p>
+                    </li>
+                {{/if}}
+                {{#if bonusCardNumber}}
+                    <li class="personInfoList__item">
+                        <span class="personInfoList__itemLabel">бонусная карта авиакомпании</span>
+                        <p class="personInfoList__itemValue">{{ bonusCardNumber }}</p>
+                    </li>
+                {{/if}}
+                {{#if ticketNumbers }}
+                    <li class="personInfoList__item">
+                        <span class="personInfoList__itemLabel">номера билетов</span>
+                        <p class="personInfoList__itemValue personInfoList__itemValue_type_ticketNumbers">{{ ticketNumbers }}</p>
+                    </li>
+                {{/if}}
+            </ul>
+        </div>
+    {{/each}}
+</div>

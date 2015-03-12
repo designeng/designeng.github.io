@@ -1,0 +1,1 @@
+define(["when"],function(e){var t;return t=function(){function t(){}return t.prototype.renderingDeferred=e.defer(),t.prototype.onReady=function(){return this.renderingDeferred.resolve(this)},t.prototype.isReady=function(){return this.renderingDeferred.promise},t}()});

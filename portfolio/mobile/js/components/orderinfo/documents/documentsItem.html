@@ -1,0 +1,13 @@
+<li class="contentList__item">
+    {{#if documentHref}}
+        <a class="contentList__itemContent contentList__itemContent_type_download" href="{{ documentHref }}">
+            <span class="contentList__itemContentLabel">{{ documentName }}</span>
+        </a>
+    {{else}}
+        <b class="contentList__itemContent">
+            <span class="contentList__itemContentLabel">{{ documentName }}</span>
+        </b>
+    {{/if}}
+
+    {{> personsPartial}}
+</li>
