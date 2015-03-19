@@ -1,1 +1,0 @@
-define(["underscore","when","./route"],function(e,t,n){var r;return r=function(){function t(){}return t.prototype.registerGroundRoutes=function(){return e.forEach(this.groundRoutes,function(t){return function(r,i){var s,o;return o=e.extend({},r,{route:i}),s=function(e){return function(){return t.routeHandlerFactory.createHandler(e)}}(o),new n(i,r.rules,s)}}(this))},t}()});

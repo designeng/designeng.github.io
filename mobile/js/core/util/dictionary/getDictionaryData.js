@@ -1,1 +1,0 @@
-define(["underscore"],function(e){var t;return t=function(t,n,r){var i;return r[n]!=null?i=e.where(r[n],{id:t})[0]:console.error("DEBUG","There is no chapter in response.dictionary with the name ",n),i||void 0}});

@@ -1,1 +1,0 @@
-define(["core/util/config/getLocalizedName"],function(e){var t;return t=function(){function t(t){var n,r,i,s,o,u;i=e(),n=[],u=t.data.countries;for(s=0,o=u.length;s<o;s++)r=u[s],n.push({id:r.id,code:this.getValue(r,"codeIATA","codeSirena"),name:this.getValue(r,i,"nameEn")});return{countries:n}}return t.prototype.getValue=function(e,t,n){return e[t]?e[t]:e[n]},t}()});

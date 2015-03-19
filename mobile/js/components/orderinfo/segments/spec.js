@@ -1,1 +1,0 @@
-define({$plugins:["wire/on","wire/dom","wire/dom/render"],specMainView:{render:{template:"<div></div>"}},segments:{wire:{spec:"components/segments/spec",provide:{serviceResponse:{$ref:"packResponse"}}}}});

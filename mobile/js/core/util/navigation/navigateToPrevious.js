@@ -1,1 +1,0 @@
-define(["underscore","hasher","core/util/navigation/navigate"],function(e,t,n){var r;return r=function(){var r;return r=t.getHashAsArray(),r.pop(),(e.last(r)==="person"||e.last(r)==="static")&&r.pop(),n(r.join("/"))}});

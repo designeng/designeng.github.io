@@ -1,1 +1,0 @@
-define(["underscore","core/util/order/orderHistory"],function(e,t){var n;return n=function(){return e.filter(t.getLastOrder().paymentCollection,function(e){return e.payment.method==="EUROSET"})[0]}});

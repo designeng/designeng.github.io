@@ -1,1 +1,0 @@
-define(["underscore"],function(e){var t,n;return t=function(t,n){var r,i;return r=n[0],i=n[1],e.isUndefined(r)?t*0:r.match("\\{(.*)}")&&!e.isUndefined(i)?t*1:r!==i?t*0:t*1},n=function(n,r,i){var s,o,u,a,f,l,c,h,p;u=i.split("/"),o=e.keys(n);for(h=0,p=o.length;h<p;h++){f=o[h],l=f.split("/"),c=e.zip(l,u),a=e.reduce(c,t,1);if(a)return s=n[f],s.route=f,s}return void 0},n});
