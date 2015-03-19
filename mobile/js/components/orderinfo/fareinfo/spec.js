@@ -1,0 +1,1 @@
+define({$plugins:["wire/on","wire/dom","wire/dom/render"],specMainView:{render:{template:"<div></div>"}},fareinfo:{wire:{spec:"components/fareinfo/spec",provide:{serviceName:"packResponseFareinfo",pathPatchingData:{cpid:{$ref:"cpid"}}}}}});

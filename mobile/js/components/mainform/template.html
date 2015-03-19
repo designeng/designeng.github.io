@@ -1,0 +1,90 @@
+<div class="layoutContent__wrapperPage">
+    <div class="pageNotify">
+        <div class="pageNotify__messages informationMessages">
+            <ul class="pageNotify__messageList pageNotify__messageItem_type_info">
+                <li class="pageNotify__messageItem" data-cola-id="0">
+                    <p class="pageNotify__messageText message">Ни&nbsp;одного рейса по&nbsp;вашему запросу не&nbsp;найдено, либо все билеты уже проданы. Попробуйте изменить даты вылета.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <form class="searchForm">
+        <div class="searchTypeTabs">
+            <label class="searchTypeTabs__item searchTypeTabs__item_type_both searchTypeTabs__item_selected">
+                <span class="searchTypeTabs__itemText">Туда и обратно</span>
+                <input type='radio' name="searchType" checked="checked" />
+            </label>
+            <label class="searchTypeTabs__item searchTypeTabs__item_type_single">
+                <span class="searchTypeTabs__itemText">В одну сторону</span>
+                <input type='radio' name="searchType" />
+            </label>
+        </div>
+
+        <div class="searchForm__list">
+            <div class="searchForm__listCell">
+                <label class="formInput">
+                    <input class="formInput__input" type="text" name="from" placeholder="Откуда" />
+                    <ul class="formInput__state formInput__state_show_airport">
+                        <li class="formInput__state_airport">DME</li>
+                        <li class="formInput__state_error"></li>
+                        <li class="formInput__state_success"></li>
+                        <li class="formInput__state_loading"></li>
+                    </ul>
+                </label>
+            </div>
+            <div class="searchForm__listCell">
+                <label class="formInput">
+                    <input class="formInput__input" type="text" name="to" placeholder="Куда" />
+                    <ul class="formInput__state formInput__state_show_loading">
+                        <li class="formInput__state_airport">DME</li>
+                        <li class="formInput__state_error"></li>
+                        <li class="formInput__state_success"></li>
+                        <li class="formInput__state_loading"></li>
+                    </ul>
+                </label>
+            </div>
+        </div>
+
+        <div id="jsTabControll" class="searchForm__list">
+            <div class="searchForm__listCell">
+                <span class="searchLinkInput searchLinkInput__type_start">
+                    <i class="searchLinkInput__value"></i>
+                    <i class="searchLinkInput__placeholder">Дата вылета...</i>
+                    <input class="searchLinkInput__input" type="hidden" name="start" />
+                </span>
+            </div>
+            <div class="searchForm__listCell">
+                <span class="searchLinkInput searchLinkInput__type_end">
+                    <i class="searchLinkInput__value"></i>
+                    <i class="searchLinkInput__placeholder">Обратно...</i>
+                    <input class="searchLinkInput__input" type="hidden" name="end" />
+                </span>
+            </div>
+        </div>
+
+        <div class="searchForm__list">
+            <div class="searchForm__listCell">
+                <span class="searchLinkInput searchLinkInput__type_passenger">
+                    <i class="searchLinkInput__value">1 пассажир, эконом класс</i>
+                    <i class="searchLinkInput__placeholder">В каком составе летим_с?</i>
+                    <input class="searchLinkInput__input" type="hidden" name="passenger" />
+                    <input class="searchLinkInput__input" type="hidden" name="class" />
+                </span>
+            </div>
+        </div>
+
+        <div class="searchForm__list">
+            <div class="searchForm__listRow">
+                <button class="bigButton">Найти рейсы</button>
+            </div>
+        </div>
+
+        <div class="searchForm__list">
+            <div class="searchForm__listRow">
+                <a href="/" class="searchForm__link">Полная версия</a>
+            </div>
+        </div>
+
+    </form>
+</div>

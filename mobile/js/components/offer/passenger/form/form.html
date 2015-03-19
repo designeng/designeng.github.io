@@ -1,0 +1,91 @@
+<form>
+    <div class="searchForm searchForm_type_passenger">
+        <div class="searchForm__list searchForm__list_type_passenger">
+            <div class="searchForm__listCell">Пол</div>
+            <div class="searchForm__listCell">
+                <div class="genderTabs">
+                    <input class="genderTabs__input" type="radio" name="genderRB" id="male"     {{#if_eq personFormData.gender "male"}}  checked="checked"{{/if_eq}} />
+                    <input class="genderTabs__input" type="radio" name="genderRB" id="female"   {{#if_eq personFormData.gender "female"}}checked="checked"{{/if_eq}} />
+                    <label class="genderTabs__label genderTabs__label_type_men"   for="male"></label>
+                    <label class="genderTabs__label genderTabs__label_type_woman" for="female"></label>
+                </div>
+                <input type="hidden" name="gender" id="gender" value="{{ personFormData.gender }}" data-state-error-class="genderTabs_type_error" data-input-exclusion="exclusion"/>
+            </div>
+        </div>
+
+        <div class="searchForm__list searchForm__list_type_passenger">
+            <div class="searchForm__listCell">
+                {{include "formInput" type="text" placeholder="Имя" name="firstName" value=personFormData.firstName }}
+            </div>
+            <div class="searchForm__listCell">
+                {{include "formInput" type="text" placeholder="Фамилия" name="lastName" value=personFormData.lastName}}
+            </div>
+        </div>
+
+        <div class="searchForm__list searchForm__list_type_passenger">
+            <div class="searchForm__listCell">
+                {{include "formInput" type="date" placeholder="Дата рождения" name="birthDate" min=inputDateMin max=inputDateMax  value=personFormData.birthDate}}
+            </div>
+            <div class="searchForm__listCell"></div>
+        </div>
+
+        <div class="searchForm__list searchForm__list_type_passenger">
+            {{include "formSelect" placeholder="Гражданство" name="citizenship" options=citizenshipOptions id="citizenshipSelect" selectedOption=personFormData.citizenship }}
+        </div>
+
+        <div class="searchForm__list searchForm__list_type_passenger">
+            <div class="searchForm__listCell">
+                {{include "formInput" type="text" placeholder="Документ" name="document" id="document" value=personFormData.document}}
+            </div>
+            <div class="searchForm__listCell">
+                {{include "formInput" type="date" placeholder="Годен до" name="validUntil"  value=personFormData.validUntil}}
+            </div>
+        </div>
+
+        {{#if isBonusCardProgram}}
+            <div class="searchForm__list searchForm__list_type_passenger">
+                <div class="searchForm__listCell">
+
+                    {{#if_eq airCompanyOptions.length 1}}
+                        <div class="formInputExtra">
+                            <p class="formInputExtra__text">бонусная карта авиакомпании {{airCompanyOptions.0.name}}, если есть</p>
+                            <input id="bonusCard" class="formInputExtra__checkbox" type="checkbox" {{#if personFormData.airCompany}}checked="checked"{{/if}}  />
+                            <label for="bonusCard" class="formInputExtra__label">Добавить</label>
+
+                            <input type="hidden" name="airCompany" value="{{airCompanyOptions.0.id}}" />
+
+                            <div class="searchForm__list">
+                                <div class="searchForm__listCell">
+                                    {{include "formInput" type="text" placeholder="Номер карты" name="bonusCardNumber" id="bonusCardNumber"  value=personFormData.bonusCardNumber}}
+                                </div>
+                            </div>
+                        </div>
+                    {{else}}
+                        <div class="formInputExtra">
+                            <p class="formInputExtra__text">бонусная карта авиакомпании, если есть</p>
+                            <input id="bonusCard" class="formInputExtra__checkbox" type="checkbox" {{#if personFormData.airCompany}}checked="checked"{{/if}}  />
+                            <label for="bonusCard" class="formInputExtra__label">Добавить</label>
+
+                            <div class="searchForm__list">
+                                <div class="searchForm__listCell">
+                                    {{include "formSelect" placeholder="Авиакомпания" name="airCompany" options=airCompanyOptions selectedOption=personFormData.airCompany id="airCompany" }}
+                                </div>
+                                <div class="searchForm__listCell">
+                                    {{include "formInput" type="text" placeholder="Номер карты" name="bonusCardNumber" id="bonusCardNumber"  value=personFormData.bonusCardNumber}}
+                                </div>
+                            </div>
+                        </div>
+                    {{/if_eq}}
+
+                </div>
+            </div>
+        {{/if}}
+
+        <div class="searchForm__list searchForm__list_type_button">
+            <span class="contentList__itemContentButton">
+                <button href="#" class="bigButton">Сохранить</button>
+            </span>
+        </div>
+
+    </div>
+</form>

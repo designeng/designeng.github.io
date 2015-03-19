@@ -1,0 +1,1 @@
+define(["moment","core/util/date/getTimeDifference","components/payment/restrictionCase"],function(e,t,n){return function(r){return{showContent:n.showPayLater(r),currentTime:r.timelimit.format("H:m"),currentDate:r.timelimit.format("D MMMM YYYY"),leftDate:t(r.timelimit,e())}}});

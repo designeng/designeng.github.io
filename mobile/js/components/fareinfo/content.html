@@ -1,0 +1,26 @@
+<div class="fareinfo__wrap">
+    {{#if error}}
+        <div class="fareinfo__error">Не&nbsp;удалось получить условия обмена и возврата билетов, обратитесь в&nbsp;службу поддержки.</div>
+    {{else}}
+        {{#each fares}}
+            <dl class="fareinfo">
+                <dt class="fareinfo__link">
+                    <div class="fareinfo__linkCode">{{ startPointCode }} - {{ endPointCode }}</div>
+                    <div class="fareinfo__linkTarif">Тариф {{ tarif }}</div>
+                </dt>
+                <dd class="fareinfo__content">
+                    <h3 class="fareinfo__contentHeader">{{ startPointCity }} - {{ endPointCity }}</h3>
+
+                    {{#each fareList}}
+                        <div class="fareinfo__contentItem">
+                            <h4 class="fareinfo__contentHeaderSub">Условия применения тарифа «{{ personCategory }}»</h4>
+                            <div class="fareinfo__contentText">
+                                <section class="staticContent">{{{ html }}}</section>
+                            </div>
+                        </div>
+                    {{/each}} 
+                </dd>
+            </dl>
+        {{/each}} 
+    {{/if}}
+</div>

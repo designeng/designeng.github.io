@@ -1,0 +1,1 @@
+define(["underscore","core/util/common/replacement"],function(e,t){var n;return n=function(n,r,i){var s;return s=e.map(n.persons,function(e){return{id:e.id,href:"#"+r+"/passenger/"+e.id,type:t.personCategory(e.personCategory.id),typeName:t.categoryNameById(e.personCategory.id).reduction}}),e.sortBy(s,"type")}});

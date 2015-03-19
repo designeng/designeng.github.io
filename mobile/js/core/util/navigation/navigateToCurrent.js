@@ -1,0 +1,1 @@
+define(["core/util/navigation/navigate","core/util/navigation/getCurrentRoute","hasher"],function(e,t,n){var r;return r=function(){var e;return console.log("current",t()),e=t(),n.setHash(e+"/reload")}});

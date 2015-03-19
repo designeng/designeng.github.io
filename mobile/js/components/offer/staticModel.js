@@ -1,0 +1,1 @@
+define(["underscore","core/util/navigation/getSpecBaseHash"],function(e,t){var n;return n=function(){function e(e){var n;return n=t(e),{hrefConditions:"#"+n+"/fareinfo",hrefOffer:"#"+n+"/static/offer"}}return e}()});

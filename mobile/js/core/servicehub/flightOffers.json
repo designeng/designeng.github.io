@@ -1,0 +1,1004 @@
+{
+  "properties": {
+    "errors": [],
+    "warnings": [],
+    "info": [],
+    "responseDateTime": "2014-01-02T22:05:38.142+04:00"
+  },
+  "data": {
+    "id": "61ee6e6c4a1b4ebe9f0a8ea218a7d4ea",
+    "flight": {
+      "id": "4fb91ee9-dd58-4873-806b-1dee080dc468",
+      "gds": {
+        "id": "SIRENA",
+        "type": "flightGDS"
+      },
+      "blank": {
+        "count": 6,
+        "countPerPassenger": 1.0,
+        "holder": {
+          "id": "276",
+          "type": "airline"
+        }
+      },
+      "cabinClass": {
+        "id": "ECONOMIC",
+        "type": "flightCabinClass"
+      },
+      "passengerCountRestricted": false,
+      "latinRegistration": false,
+      "international": true,
+      "leaveTransitZone": false,
+      "fareInfoAvailable": true,
+      "segments": [
+        {
+          "start": {
+            "location": {
+              "id": "1",
+              "type": "airport"
+            },
+            "terminal": "C",
+            "dateTime": "2015-12-30T09:55"
+          },
+          "end": {
+            "location": {
+              "id": "7",
+              "type": "airport"
+            },
+            "terminal": null,
+            "dateTime": "2015-12-31T00:00"
+          },
+          "duration": "PT12H05M",
+          "legs": [
+            {
+              "start": {
+                "location": {
+                  "id": "1",
+                  "type": "airport"
+                },
+                "terminal": "C",
+                "dateTime": "2015-12-30T09:55"
+              },
+              "end": {
+                "location": {
+                  "id": "7",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2015-12-31T00:00"
+              },
+              "operatingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "marketingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "vehicle": {
+                "id": "45",
+                "type": "vehicle"
+              },
+              "stops": 0,
+              "flightNumber": "170",
+              "subclassCode": "F",
+              "duration": "PT12H05M",
+              "fares": [
+                {
+                  "id": "13de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "CHILD",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "8494e832-b80e-41f2-ad61-2f354283b911",
+                    "7c481a0b-5659-467a-8472-eeed38878982"
+                  ]
+                },
+                {
+                  "id": "23de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "ADULT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+                  ]
+                },
+                {
+                  "id": "33de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+                    "6d394472-a938-48eb-a26b-22c78d147115"
+                  ]
+                },
+                {
+                  "id": "43de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT_WITH_SEAT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "start": {
+            "location": {
+              "id": "21",
+              "type": "airport"
+            },
+            "terminal": null,
+            "dateTime": "2016-01-01T00:00"
+          },
+          "end": {
+            "location": {
+              "id": "18",
+              "type": "airport"
+            },
+            "terminal": null,
+            "dateTime": "2016-01-01T11:45"
+          },
+          "duration": "PT11H45M",
+          "legs": [
+            {
+              "start": {
+                "location": {
+                  "id": "21",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-01-01T00:00"
+              },
+              "end": {
+                "location": {
+                  "id": "82",
+                  "type": "airport"
+                },
+                "terminal": "B",
+                "dateTime": "2016-01-01T05:10"
+              },
+              "operatingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "marketingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "vehicle": {
+                "id": "45",
+                "type": "vehicle"
+              },
+              "stops": 1,
+              "flightNumber": "170",
+              "subclassCode": "F",
+              "duration": "PT05H10M",
+              "fares": [
+                {
+                  "id": "13de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "CHILD",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "8494e832-b80e-41f2-ad61-2f354283b911",
+                    "7c481a0b-5659-467a-8472-eeed38878982"
+                  ]
+                },
+                {
+                  "id": "23de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "ADULT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+                  ]
+                },
+                {
+                  "id": "33de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+                    "6d394472-a938-48eb-a26b-22c78d147115"
+                  ]
+                },
+                {
+                  "id": "43de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT_WITH_SEAT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+                  ]
+                }
+              ]
+            },
+            {
+              "start": {
+                "location": {
+                  "id": "82",
+                  "type": "airport"
+                },
+                "terminal": "B",
+                "dateTime": "2016-02-21T01:10"
+              },
+              "end": {
+                "location": {
+                  "id": "18",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-22T11:45"
+              },
+              "operatingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "marketingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "vehicle": {
+                "id": "45",
+                "type": "vehicle"
+              },
+              "stops": 0,
+              "flightNumber": "170",
+              "subclassCode": "F",
+              "duration": "PT10H35M",
+              "fares": [
+                {
+                  "id": "13de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "CHILD",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "8494e832-b80e-41f2-ad61-2f354283b911",
+                    "7c481a0b-5659-467a-8472-eeed38878982"
+                  ]
+                },
+                {
+                  "id": "23de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "ADULT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+                  ]
+                },
+                {
+                  "id": "33de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+                    "6d394472-a938-48eb-a26b-22c78d147115"
+                  ]
+                },
+                {
+                  "id": "43de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT_WITH_SEAT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "start": {
+            "location": {
+              "id": "18",
+              "type": "airport"
+            },
+            "terminal": null,
+            "dateTime": "2016-02-20T17:00"
+          },
+          "end": {
+            "location": {
+              "id": "4760",
+              "type": "airport"
+            },
+            "terminal": null,
+            "dateTime": "2016-02-24T10:20"
+          },
+          "duration": "PT68H20M",
+          "legs": [
+            {
+              "start": {
+                "location": {
+                  "id": "18",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-20T17:00"
+              },
+              "end": {
+                "location": {
+                  "id": "5305",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-20T15:17"
+              },
+              "operatingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "marketingCompany": {
+                "id": "324",
+                "type": "airline"
+              },
+              "vehicle": {
+                "id": "45",
+                "type": "vehicle"
+              },
+              "stops": 0,
+              "flightNumber": "170",
+              "subclassCode": "F",
+              "duration": "PT04H43M",
+              "fares": [
+                {
+                  "id": "13de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "CHILD",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "8494e832-b80e-41f2-ad61-2f354283b911",
+                    "7c481a0b-5659-467a-8472-eeed38878982"
+                  ]
+                },
+                {
+                  "id": "23de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "ADULT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+                  ]
+                },
+                {
+                  "id": "33de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+                    "6d394472-a938-48eb-a26b-22c78d147115"
+                  ]
+                },
+                {
+                  "id": "43de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT_WITH_SEAT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+                  ]
+                }
+              ]
+            },
+            {
+              "start": {
+                "location": {
+                  "id": "5305",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-21T18:40"
+              },
+              "end": {
+                "location": {
+                  "id": "12",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-22T00:47"
+              },
+              "operatingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "marketingCompany": {
+                "id": "324",
+                "type": "airline"
+              },
+              "vehicle": {
+                "id": "45",
+                "type": "vehicle"
+              },
+              "stops": 0,
+              "flightNumber": "170",
+              "subclassCode": "F",
+              "duration": "PT08H07M",
+              "fares": [
+                {
+                  "id": "13de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "CHILD",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "8494e832-b80e-41f2-ad61-2f354283b911",
+                    "7c481a0b-5659-467a-8472-eeed38878982"
+                  ]
+                },
+                {
+                  "id": "23de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "ADULT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+                  ]
+                },
+                {
+                  "id": "33de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+                    "6d394472-a938-48eb-a26b-22c78d147115"
+                  ]
+                },
+                {
+                  "id": "43de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT_WITH_SEAT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+                  ]
+                }
+              ]
+            },
+            {
+              "start": {
+                "location": {
+                  "id": "12",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-23T19:20"
+              },
+              "end": {
+                "location": {
+                  "id": "4760",
+                  "type": "airport"
+                },
+                "terminal": null,
+                "dateTime": "2016-02-24T10:20"
+              },
+              "operatingCompany": {
+                "id": "276",
+                "type": "airline"
+              },
+              "marketingCompany": {
+                "id": "324",
+                "type": "airline"
+              },
+              "vehicle": {
+                "id": "45",
+                "type": "vehicle"
+              },
+              "stops": 0,
+              "flightNumber": "170",
+              "subclassCode": "F",
+              "duration": "PT15H00M",
+              "fares": [
+                {
+                  "id": "13de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "CHILD",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "8494e832-b80e-41f2-ad61-2f354283b911",
+                    "7c481a0b-5659-467a-8472-eeed38878982"
+                  ]
+                },
+                {
+                  "id": "23de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "ADULT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+                  ]
+                },
+                {
+                  "id": "33de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+                    "6d394472-a938-48eb-a26b-22c78d147115"
+                  ]
+                },
+                {
+                  "id": "43de0c85-56ae-4943-b720-cb297bd82d21",
+                  "personCategory": {
+                    "id": "INFANT_WITH_SEAT",
+                    "type": "personCategory"
+                  },
+                  "code": "FACE",
+                  "info": "Some text for FACE",
+                  "personsIDs": [
+                    "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "personsIDs": [
+        "8494e832-b80e-41f2-ad61-2f354283b911",
+        "7c481a0b-5659-467a-8472-eeed38878982",
+        "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503",
+        "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+        "6d394472-a938-48eb-a26b-22c78d147115",
+        "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+      ],
+      "pricing": {
+        "airlineFee": 111555.0,
+        "providerFee": 0.0,
+        "fare": 92434.0,
+        "total": 203989.0,
+        "categoryPrices": [
+          {
+            "personCategory": {
+              "id": "CHILD",
+              "type": "personCategory"
+            },
+            "personsIDs": [
+              "8494e832-b80e-41f2-ad61-2f354283b911",
+              "7c481a0b-5659-467a-8472-eeed38878982"
+            ],
+            "airlineFee": 30000.0,
+            "providerFee": 0.0,
+            "fare": 25.0
+          },
+          {
+            "personCategory": {
+              "id": "ADULT",
+              "type": "personCategory"
+            },
+            "personsIDs": [
+              "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503"
+            ],
+            "airlineFee": 200.0,
+            "providerFee": 0.0,
+            "fare": 498.0
+          },
+          {
+            "personCategory": {
+              "id": "INFANT",
+              "type": "personCategory"
+            },
+            "personsIDs": [
+              "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+              "6d394472-a938-48eb-a26b-22c78d147115"
+            ],
+            "airlineFee": 56789.0,
+            "providerFee": 0.0,
+            "fare": 7536.0
+          },
+          {
+            "personCategory": {
+              "id": "INFANT_WITH_SEAT",
+              "type": "personCategory"
+            },
+            "personsIDs": [
+              "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6"
+            ],
+            "airlineFee": 24566.0,
+            "providerFee": 0.0,
+            "fare": 84375.0
+          }
+        ]
+      }
+    },
+
+    "persons": [
+      {
+        "id": "8494e832-b80e-41f2-ad61-2f354283b911",
+        "personCategory": {
+          "id": "CHILD",
+          "type": "personCategory"
+        }
+      },
+      {
+        "id": "7c481a0b-5659-467a-8472-eeed38878982",
+        "personCategory": {
+          "id": "CHILD",
+          "type": "personCategory"
+        }
+      },
+      {
+        "id": "9a5eb1a8-630d-4fa9-9fa8-1a4b1be13503",
+        "personCategory": {
+          "id": "ADULT",
+          "type": "personCategory"
+        }
+      },
+      {
+        "id": "6c9f56a4-c7d4-4e99-ac0c-f098b7ec7914",
+        "personCategory": {
+          "id": "INFANT",
+          "type": "personCategory"
+        }
+      },
+      {
+        "id": "6d394472-a938-48eb-a26b-22c78d147115",
+        "personCategory": {
+          "id": "INFANT",
+          "type": "personCategory"
+        }
+      },
+      {
+        "id": "b4ec9476-19e7-46ef-b09e-c9d689b6e0f6",
+        "personCategory": {
+          "id": "INFANT_WITH_SEAT",
+          "type": "personCategory"
+        }
+      }
+    ],
+
+    "pricings": [
+      {
+        "paymentMethod": {
+          "id": "PLASTIC_CARD",
+          "type": "paymentMethod"
+        },
+        "restricted": false,
+        "restrictionReason": null,
+        "paymentCode": null,
+        "agentRuFee": 5000.0,
+        "subagencyFee": 0.0,
+        "price": 224359.0,
+        "total": 229359.0
+      },
+      {
+        "paymentMethod": {
+          "id": "EUROSET",
+          "type": "paymentMethod"
+        },
+        "restricted": true,
+        "restrictionReason": {
+          "id": "EUROSET_AMOUNT_LIMIT",
+          "type": "paymentMethodRestrictionReason"
+        },
+        "paymentCode": null,
+        "agentRuFee": 700.0,
+        "subagencyFee": 0.0,
+        "price": 224359.0,
+        "total": 225059.0
+      },
+      {
+        "paymentMethod": {
+          "id": "EUROSET_RETAIL",
+          "type": "paymentMethod"
+        },
+        "restricted": false,
+        "restrictionReason": null,
+        "paymentCode": {
+          "prefix": "529267",
+          "code": "01263431432737"
+        },
+        "agentRuFee": 700.0,
+        "subagencyFee": 0.0,
+        "price": 224359.0,
+        "total": 225059.0
+      }
+    ]
+  },
+  "dictionary" : {
+    "city" : [ {
+      "id" : "1723",
+      "nameRu" : "Мадрид",
+      "nameEn" : "Madrid",
+      "codeIATA" : "MAD",
+      "codeSirena" : "МАД",
+      "country" : {
+        "id" : "1920",
+        "type" : "country"
+      }
+    }, {
+      "id" : "1",
+      "nameRu" : "Москва",
+      "nameEn" : "Moscow",
+      "codeIATA" : "MOW",
+      "codeSirena" : "МОВ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    },{
+      "id" : "18",
+      "nameRu" : "Архангельск",
+      "nameEn" : "Arch",
+      "codeIATA" : "ARH",
+      "codeSirena" : "АРХ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    } ],
+    "documentType" : [ {
+      "id" : "NATIONAL_PASSPORT"
+    } ],
+    "flightCabinClass" : [ {
+      "id" : "ECONOMIC"
+    } ],
+    "insuranceProduct" : [ {
+      "id" : "41",
+      "nameRu" : "Страховка для выезда за границу",
+      "nameEn" : "Страховка для выезда за границу"
+    }, {
+      "id" : "1",
+      "nameRu" : "Страховка на время перелёта",
+      "nameEn" : "Страховка на время перелёта"
+    } ],
+    "flightState" : [ {
+      "id" : "WAITING_FOR_TICKETING"
+    } ],
+    "personCategory" : [ {
+      "id" : "ADULT"
+    } ],
+    "country" : [ {
+      "id" : "1920",
+      "nameRu" : "Испания",
+      "nameEn" : "Spain and Canary Islands",
+      "codeIATA" : "ES",
+      "codeSirena" : "ЕК"
+    }, {
+      "id" : "2083",
+      "nameRu" : "Бермуды",
+      "nameEn" : "Bermuda",
+      "codeIATA" : "BM",
+      "codeSirena" : "БМ"
+    }, {
+      "id" : "1",
+      "nameRu" : "Россия",
+      "nameEn" : "Russian Federation",
+      "codeIATA" : "RU",
+      "codeSirena" : "РФ"
+    } ],
+    "vehicle" : [ {
+      "id" : "87",
+      "nameRu" : "Airbus A318 / A319 / A320 / A321",
+      "nameEn" : "Airbus A318 / A319 / A320 / A321",
+      "codeIATA" : "32S",
+      "codeSirena" : "32S"
+    }, {
+      "id" : "45",
+      "nameRu" : "Airbus A318 / A319 / A320 / A321",
+      "nameEn" : "Airbus A318 / A319 / A320 / A321",
+      "codeIATA" : "32S",
+      "codeSirena" : "32S"
+    } ],
+    "packState" : [ {
+      "id" : "WAITING_FOR_PAY"
+    } ],
+    "invoiceState" : [ {
+      "id" : "NOT_REGISTERED"
+    } ],
+    "airport" : [ {
+      "id" : "4891",
+      "nameRu" : "Барахас",
+      "nameEn" : "Barajas",
+      "codeIATA" : "MAD",
+      "codeSirena" : "МАД",
+      "city" : {
+        "id" : "1723",
+        "type" : "city"
+      }
+    }, {
+      "id" : "1",
+      "nameRu" : "Шереметьево",
+      "nameEn" : "Sheremetyevo",
+      "codeIATA" : "SVO",
+      "codeSirena" : "ШРМ",
+      "city" : {
+        "id" : "1",
+        "type" : "city"
+      }
+    }, {
+      "id" : "7",
+      "nameRu" : "Архангельск",
+      "nameEn" : "Arch",
+      "codeIATA" : "ARH",
+      "codeSirena" : "АРХ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "18",
+      "nameRu" : "Кострома",
+      "nameEn" : "Kostroma",
+      "codeIATA" : "KST",
+      "codeSirena" : "КСТ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "21",
+      "nameRu" : "Кострома",
+      "nameEn" : "Kostroma",
+      "codeIATA" : "KST",
+      "codeSirena" : "КСТ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "4760",
+      "nameRu" : "Кострома",
+      "nameEn" : "Kostroma",
+      "codeIATA" : "KST",
+      "codeSirena" : "КСТ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "82",
+      "nameRu" : "Кострома",
+      "nameEn" : "Kostroma",
+      "codeIATA" : "KST",
+      "codeSirena" : "КСТ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "5305",
+      "nameRu" : "Кострома",
+      "nameEn" : "Kostroma",
+      "codeIATA" : "KST",
+      "codeSirena" : "КСТ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    } , {
+      "id" : "12",
+      "nameRu" : "Кострома",
+      "nameEn" : "Kostroma",
+      "codeIATA" : "KST",
+      "codeSirena" : "КСТ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }  ],
+    "paymentMethod" : [ {
+      "id" : "WEB_MONEY"
+    }, {
+      "id" : "EUROSET"
+    }, {
+      "id" : "YANDEX_MONEY"
+    }, {
+      "id" : "PLASTIC_CARD"
+    }, {
+      "id" : "CASH"
+    }, {
+      "id" : "QIWI"
+    }, {
+      "id" : "ALFA_CLICK"
+    } ],
+    "paymentMethodRestrictionReason" : [ {
+      "id" : "EUROSET_PAYMENT_NOT_REGISTERED"
+    } ],
+    "sex" : [ {
+      "id" : "MALE"
+    } ],
+    "flightGDS" : [ {
+      "id" : "AMADEUS"
+    } ],
+    "airline" : [ {
+      "id" : "3625",
+      "nameRu" : "Air Russia",
+      "nameEn" : "Air Russia",
+      "codeIATA" : "RS",
+      "codeSirena" : "RS",
+      "hasLogo" : true
+    }, {
+      "id" : "276",
+      "nameRu" : "Air Europa",
+      "nameEn" : "Air Europa",
+      "codeIATA" : "UX",
+      "codeSirena" : "UX",
+      "hasLogo" : true
+    }, {
+      "id" : "324",
+      "nameRu" : "Air Berlin",
+      "nameEn" : "Air Berlin",
+      "codeIATA" : "BR",
+      "codeSirena" : "BR",
+      "hasLogo" : true
+    }]
+  }
+}

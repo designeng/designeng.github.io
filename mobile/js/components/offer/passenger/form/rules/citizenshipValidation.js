@@ -1,0 +1,1 @@
+var __bind=function(e,t){return function(){return e.apply(t,arguments)}};define([],function(){var e;return e=function(){function e(){this.categoryRule=__bind(this.categoryRule,this)}return e.prototype.categoryRule=function(e){return!0},e}(),e});

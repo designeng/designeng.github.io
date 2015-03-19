@@ -1,0 +1,17 @@
+{
+  "properties" : {
+    "responseDateTime" : "2015-03-12T23:15:35.297Z",
+    "errors" : [ ],
+    "warnings" : [ ],
+    "info" : [ ]
+  },
+  "data" : {
+    "id" : "WAITING_FOR_PAY",
+    "type" : "packState"
+  },
+  "dictionary" : {
+    "packState" : [ {
+      "id" : "WAITING_FOR_PAY"
+    } ]
+  }
+}

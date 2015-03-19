@@ -1,0 +1,424 @@
+{
+  "properties" : {
+    "responseDateTime" : "2015-03-12T22:36:09.956Z",
+    "errors" : [ ],
+    "warnings" : [ ],
+    "info" : [ ]
+  },
+  "data" : {
+    "cpid" : "122244059",
+    "state" : {
+      "id" : "WAITING_FOR_PAY",
+      "type" : "packState"
+    },
+    "services" : {
+      "flights" : [ {
+        "id" : "10924826",
+        "state" : {
+          "id" : "WAITING_FOR_TICKETING",
+          "type" : "flightState"
+        },
+        "pnr" : "MBHTMK",
+        "gds" : {
+          "id" : "SABRE",
+          "type" : "flightGDS"
+        },
+        "blank" : {
+          "count" : 1,
+          "countPerPassenger" : 1,
+          "holder" : {
+            "id" : "40",
+            "type" : "airline"
+          }
+        },
+        "cabinClass" : {
+          "id" : "ECONOMIC",
+          "type" : "flightCabinClass"
+        },
+        "leadPassenger" : "PEPPER",
+        "passengerCountRestricted" : false,
+        "availabilityConfirmed" : true,
+        "passengerCategoryConfirmed" : true,
+        "international" : true,
+        "leaveTransitZone" : false,
+        "fareInfoAvailable" : true,
+        "receipt" : null,
+        "segments" : [ {
+          "start" : {
+            "location" : {
+              "id" : "2",
+              "type" : "airport"
+            },
+            "terminal" : null,
+            "dateTime" : "2015-04-28T05:40:00.000"
+          },
+          "end" : {
+            "location" : {
+              "id" : "9",
+              "type" : "airport"
+            },
+            "terminal" : null,
+            "dateTime" : "2015-04-28T07:00:00.000"
+          },
+          "duration" : "PT1H20M",
+          "legs" : [ {
+            "start" : {
+              "location" : {
+                "id" : "2",
+                "type" : "airport"
+              },
+              "terminal" : null,
+              "dateTime" : "2015-04-28T05:40:00.000"
+            },
+            "end" : {
+              "location" : {
+                "id" : "9",
+                "type" : "airport"
+              },
+              "terminal" : null,
+              "dateTime" : "2015-04-28T07:00:00.000"
+            },
+            "operatingCompany" : {
+              "id" : "40",
+              "type" : "airline"
+            },
+            "marketingCompany" : {
+              "id" : "40",
+              "type" : "airline"
+            },
+            "vehicle" : {
+              "id" : "47",
+              "type" : "vehicle"
+            },
+            "confirmationCode" : "VFTNUP",
+            "stops" : 0,
+            "flightNumber" : "954",
+            "subclassCode" : "F",
+            "duration" : "PT1H20M",
+            "fares" : [ {
+              "id" : "13174068",
+              "personCategory" : {
+                "id" : "ADULT",
+                "type" : "personCategory"
+              },
+              "code" : "FSROW",
+              "info" : null,
+              "personsIDs" : [ "11226087" ]
+            } ]
+          } ]
+        } ],
+        "personsIDs" : [ "11226087" ],
+        "tickets" : [ ],
+        "pricing" : {
+          "airlineFee" : 791,
+          "providerFee" : 0,
+          "fare" : 2965,
+          "total" : 3756,
+          "categoryPrices" : [ {
+            "airlineFee" : 791,
+            "providerFee" : 0,
+            "fare" : 2965,
+            "personCategory" : {
+              "id" : "ADULT",
+              "type" : "personCategory"
+            },
+            "personsIDs" : [ "11226087" ]
+          } ]
+        }
+      } ],
+      "insurances" : [ {
+        "id" : "10031409",
+        "product" : {
+          "id" : "41",
+          "type" : "insuranceProduct"
+        },
+        "number" : null,
+        "receipt" : null,
+        "pricing" : {
+          "total" : 734
+        },
+        "personsIDs" : [ "11226087" ]
+      }, {
+        "id" : "10031410",
+        "product" : {
+          "id" : "1",
+          "type" : "insuranceProduct"
+        },
+        "number" : null,
+        "receipt" : null,
+        "pricing" : {
+          "total" : 195
+        },
+        "personsIDs" : [ "11226087" ]
+      } ],
+      "aeroexpress" : [ ]
+    },
+    "persons" : [ {
+      "id" : "11226087",
+      "firstName" : "Leon",
+      "lastName" : "Pepper",
+      "sex" : {
+        "id" : "MALE",
+        "type" : "sex"
+      },
+      "birthDate" : "2001-01-01",
+      "document" : {
+        "type" : {
+          "id" : "NATIONAL_PASSPORT",
+          "type" : "documentType"
+        },
+        "series" : null,
+        "number" : "12345678",
+        "expirationDate" : "2050-01-01"
+      },
+      "personCategory" : {
+        "id" : "ADULT",
+        "type" : "personCategory"
+      },
+      "citizenship" : {
+        "id" : "2074",
+        "type" : "country"
+      },
+      "bonusCards" : [ ]
+    } ],
+    "invoices" : [ {
+      "id" : "10924097",
+      "timelimit" : "2015-03-18T18:03:00.000Z",
+      "state" : {
+        "id" : "REGISTERED",
+        "type" : "invoiceState"
+      },
+      "receipts" : [ ],
+      "pricings" : [ {
+        "paymentMethod" : {
+          "id" : "PLASTIC_CARD",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 4685,
+        "total" : 5184
+      }, {
+        "paymentMethod" : {
+          "id" : "EUROSET",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : {
+          "prefix" : "238896",
+          "code" : "01263507038440"
+        },
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 4685,
+        "total" : 5184
+      }, {
+        "paymentMethod" : {
+          "id" : "YANDEX_MONEY",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 4685,
+        "total" : 5184
+      }, {
+        "paymentMethod" : {
+          "id" : "WEB_MONEY",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 4685,
+        "total" : 5184
+      }, {
+        "paymentMethod" : {
+          "id" : "QIWI",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 4685,
+        "total" : 5184
+      }, {
+        "paymentMethod" : {
+          "id" : "ALFA_CLICK",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 4685,
+        "total" : 5184
+      } ]
+    } ],
+    "contacts" : {
+      "email" : "savenok@agent.ru",
+      "phone" : "9256206707"
+    }
+  },
+  "dictionary" : {
+    "airline" : [ {
+      "id" : "40",
+      "nameRu" : "Белавиа",
+      "nameEn" : "Belavia",
+      "codeIATA" : "B2",
+      "codeSirena" : "В2",
+      "hasLogo" : true
+    } ],
+    "city" : [ {
+      "id" : "1",
+      "nameRu" : "Москва",
+      "nameEn" : "Moscow",
+      "codeIATA" : "MOW",
+      "codeSirena" : "МОВ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "1592",
+      "nameRu" : "Минск",
+      "nameEn" : "Minsk",
+      "codeIATA" : "MSQ",
+      "codeSirena" : "МСК",
+      "country" : {
+        "id" : "71",
+        "type" : "country"
+      }
+    } ],
+    "invoiceState" : [ {
+      "id" : "REGISTERED"
+    } ],
+    "packState" : [ {
+      "id" : "WAITING_FOR_PAY"
+    } ],
+    "vehicle" : [ {
+      "id" : "47",
+      "nameRu" : "Boeing 737-500",
+      "nameEn" : "Boeing 737-500",
+      "codeIATA" : "735",
+      "codeSirena" : "735"
+    } ],
+    "airport" : [ {
+      "id" : "2",
+      "nameRu" : "Домодедово",
+      "nameEn" : "Domodedovo",
+      "codeIATA" : "DME",
+      "codeSirena" : "ДМД",
+      "city" : {
+        "id" : "1",
+        "type" : "city"
+      }
+    }, {
+      "id" : "9",
+      "nameRu" : "Минск-2",
+      "nameEn" : "International 2",
+      "codeIATA" : "MSQ",
+      "codeSirena" : "МИК",
+      "city" : {
+        "id" : "1592",
+        "type" : "city"
+      }
+    } ],
+    "flightGDS" : [ {
+      "id" : "SABRE"
+    } ],
+    "insuranceProduct" : [ {
+      "id" : "41",
+      "nameRu" : "Страховка для выезда за границу",
+      "nameEn" : "Страховка для выезда за границу"
+    }, {
+      "id" : "1",
+      "nameRu" : "Страховка на время перелёта",
+      "nameEn" : "Страховка на время перелёта"
+    } ],
+    "personCategory" : [ {
+      "id" : "ADULT"
+    } ],
+    "flightCabinClass" : [ {
+      "id" : "ECONOMIC"
+    } ],
+    "documentType" : [ {
+      "id" : "NATIONAL_PASSPORT",
+      "nameRu" : "Иной документ",
+      "nameEn" : "Other document",
+      "codeSirena" : "НП",
+      "russian" : false,
+      "validForInternationalFlights" : true,
+      "hasNumber" : true,
+      "hasSeries" : false,
+      "expirable" : true,
+      "numberValidationMask" : "^[a-zA-Zа-еж-щы-яА-ЕЖ-ЩЫ-Я0-9\\s]{3,20}$",
+      "seriesValidationMask" : null,
+      "fullValidationMask" : "^[a-zA-Zа-еж-щы-яА-ЕЖ-ЩЫ-Я0-9\\s]{3,20}$",
+      "ageFrom" : 0,
+      "ageTo" : null,
+      "validFor" : [ {
+        "id" : "ADULT",
+        "type" : "personCategory"
+      }, {
+        "id" : "CHILD",
+        "type" : "personCategory"
+      }, {
+        "id" : "INFANT",
+        "type" : "personCategory"
+      }, {
+        "id" : "INFANT_WITH_SEAT",
+        "type" : "personCategory"
+      } ]
+    } ],
+    "country" : [ {
+      "id" : "2074",
+      "nameRu" : "Американское Самоа",
+      "nameEn" : "American Samoa",
+      "codeIATA" : "AS",
+      "codeSirena" : null
+    }, {
+      "id" : "1",
+      "nameRu" : "Россия",
+      "nameEn" : "Russian Federation",
+      "codeIATA" : "RU",
+      "codeSirena" : "РФ"
+    }, {
+      "id" : "71",
+      "nameRu" : "Беларусь",
+      "nameEn" : "Belarus",
+      "codeIATA" : "BY",
+      "codeSirena" : "БЛ"
+    } ],
+    "sex" : [ {
+      "id" : "MALE"
+    } ],
+    "flightState" : [ {
+      "id" : "WAITING_FOR_TICKETING"
+    } ],
+    "paymentMethod" : [ {
+      "id" : "WEB_MONEY"
+    }, {
+      "id" : "EUROSET"
+    }, {
+      "id" : "ALFA_CLICK"
+    }, {
+      "id" : "YANDEX_MONEY"
+    }, {
+      "id" : "QIWI"
+    }, {
+      "id" : "PLASTIC_CARD"
+    } ]
+  }
+}
