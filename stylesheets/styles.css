@@ -253,3 +253,87 @@ footer {
     color:#444;
   }
 }
+
+h3 {
+  width: 100%;
+  height: 25px;
+}
+
+.position-name{
+  float:left;
+  padding-top: 20px; 
+}
+
+.company-logo{
+  float: right;
+}
+
+.compact-view {
+  overflow: hidden;
+  padding-top: 5px;
+  padding-left: 0px;
+}
+
+.compact-view ol, ul {
+  list-style: none;
+}
+
+.compact-view .endorse-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.no-endorsements .num-endorsements, .no-endorsements:hover .num-endorsements {
+  visibility: hidden;
+}
+
+.endorse-item-name {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 13px;
+  line-height: 17px;
+  color: #333;
+  font-weight: normal;
+  background-color: #f0f0f0;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.skills-section.compact-view .skill-pill {
+  float: left;
+}
+.skills-section .skill-pill {
+  float: left;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+.field {
+  position: relative;
+  display: table;
+  cursor: pointer;
+}
+.skill-pill {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1.1;
+  cursor: default;
+  white-space: nowrap;
+}
+.field {
+  margin-bottom: 4px;
+}
