@@ -1,0 +1,1 @@
+define({$plugins:["wire/dom","wire/dom/render","core/plugin/serviceHub"],noopController:{create:"components/noop/controller",ready:{sendRequest:["packResponseService",{cpid:122254941},{cpid:122254941}]},bindToService:["packResponseService"]}});

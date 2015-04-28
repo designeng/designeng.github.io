@@ -1,0 +1,12 @@
+{{#if documentPersons}}
+    <ul class="contentList__wrapper">
+        {{#each documentPersons}}
+            <li class="contentList__item">
+                <a class="contentList__itemContent contentList__itemContent_type_download documentWrapper" href="{{ documentHref }}">
+                    <span class="contentList__itemContentLabel fullName">{{ fullName }}</span>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+{{/if}}
+

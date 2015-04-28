@@ -1,0 +1,17 @@
+{
+  "properties" : {
+    "responseDateTime" : "2015-04-10T07:02:54.187Z",
+    "errors" : [ ],
+    "warnings" : [ ],
+    "info" : [ ]
+  },
+  "data" : {
+    "id" : "WAITING_FOR_AIRCOMPANY_CONFIRMATION",
+    "type" : "packState"
+  },
+  "dictionary" : {
+    "packState" : [ {
+      "id" : "WAITING_FOR_AIRCOMPANY_CONFIRMATION"
+    } ]
+  }
+}

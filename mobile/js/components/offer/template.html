@@ -1,0 +1,66 @@
+<form>
+    <div class="layoutContent__wrapperPage">
+
+        <div class="pageHeader">
+            <div class="pageHeader__segments"></div>
+            <div class="pageHeader__passengers"></div>
+        </div>
+
+        <div class="notificator"></div>
+
+        <div id="customer"></div>
+
+        <div class="layoutContent__wrapperContent">
+            <div class="layoutContent__form">
+                <div class="layoutContent__row">
+                    <div class="layoutContent">
+                        <div class="layoutContent__header">
+                            <h2 class="layoutContent__headerText">Покупатель</h2>
+                        </div>
+                        <div class="contentList__collection">
+                            <ul class="contentList contentList_type_form">
+                                <li class="contentList__item">
+                                    {{include "formInput" type="email" placeholder="E-mail" name="email" }}
+                                </li>
+                                <li class="contentList__item">
+                                    {{include "formInput" type="tel" placeholder="Телефон" name="phoneNumber" }}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layoutContent__row">
+                    <div class="layoutContent">
+                        <div class="layoutContent__header">
+                            <h2 class="layoutContent__headerText">Пассажиры</h2>
+                        </div>
+                        <div class="contentList__collection" id="passengers"></div>
+                    </div>
+                </div>
+
+                <div class="validatorForm__offerCustomer"></div>
+            </div>
+
+            <div class="layoutContent__row" id="cost"></div>
+
+            <div class="layoutContent__row layoutContent__row_type_button">
+                <span class="contentList__itemContentButton">
+                    <button class="bigButton">Далее</button>
+                </span>
+            </div>
+
+            <div class="layoutContent__row" id="static"></div>
+        </div>
+
+        <div class="footerMenuButtons"><div class="footerMenuButtons__wrapper">
+            <a href="tel:8 800 50-50-797" class="footerMenuButtons__item footerMenuButtons__item_type_phone">
+                <span class="footerMenuButtons__itemText">Cлужба поддержки</span>
+                <span class="footerMenuButtons__itemText">8 800 50-50-797</span>
+            </a>
+            <div class="footerMenuButtons__border"></div>
+            <a href="#" target="_blank" class="footerMenuButtons__item fullVersionLink">Полная версия</a>
+        </div></div>
+
+    </div>
+</form>

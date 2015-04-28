@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "errors": [],
+    "warnings": [],
+    "info": [],
+    "responseDateTime": "2014-01-02T22:05:38.142+04:00"
+  },
+  "data": {
+    "countries" : [
+      {
+        "id": "1",
+        "nameRu": "Роccия",
+        "nameEn": "Russian Federation",
+        "codeIATA": "RU",
+        "codeSirena": "РФ"
+      },
+      {
+        "id": "2",
+        "nameRu": "Германия",
+        "nameEn": "Germany",
+        "codeIATA": "GE",
+        "codeSirena": "ГЕ"
+      }
+    ]
+  }
+}

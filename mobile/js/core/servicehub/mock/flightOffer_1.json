@@ -1,0 +1,279 @@
+{
+  "properties" : {
+    "responseDateTime" : "2015-04-22T12:42:26.025Z",
+    "errors" : [ ],
+    "warnings" : [ ],
+    "info" : [ ]
+  },
+  "data" : {
+    "id" : "0000-3835152a-cbfc-4987-b33e-78f5929a3cd3",
+    "flight" : {
+      "id" : "114",
+      "gds" : {
+        "id" : "SIRENA",
+        "type" : "flightGDS"
+      },
+      "blank" : {
+        "count" : 1,
+        "countPerPassenger" : 1,
+        "holder" : {
+          "id" : "2470",
+          "type" : "airline"
+        }
+      },
+      "cabinClass" : {
+        "id" : "ECONOMIC",
+        "type" : "flightCabinClass"
+      },
+      "passengerCountRestricted" : false,
+      "availabilityConfirmed" : true,
+      "latinRegistration" : false,
+      "international" : false,
+      "leaveTransitZone" : false,
+      "fareInfoAvailable" : true,
+      "segments" : [ {
+        "start" : {
+          "location" : {
+            "id" : "1",
+            "type" : "airport"
+          },
+          "terminal" : "D",
+          "dateTime" : "2015-10-20T20:05:00.000"
+        },
+        "end" : {
+          "location" : {
+            "id" : "19",
+            "type" : "airport"
+          },
+          "terminal" : null,
+          "dateTime" : "2015-10-20T21:55:00.000"
+        },
+        "duration" : "PT1H50M",
+        "legs" : [ {
+          "start" : {
+            "location" : {
+              "id" : "1",
+              "type" : "airport"
+            },
+            "terminal" : "D",
+            "dateTime" : "2015-10-20T20:05:00.000"
+          },
+          "end" : {
+            "location" : {
+              "id" : "19",
+              "type" : "airport"
+            },
+            "terminal" : null,
+            "dateTime" : "2015-10-20T21:55:00.000"
+          },
+          "operatingCompany" : {
+            "id" : "2470",
+            "type" : "airline"
+          },
+          "marketingCompany" : {
+            "id" : "2470",
+            "type" : "airline"
+          },
+          "vehicle" : {
+            "id" : "47",
+            "type" : "vehicle"
+          },
+          "stops" : 0,
+          "flightNumber" : "118",
+          "subclassCode" : "Х",
+          "duration" : "PT1H50M",
+          "fares" : [ {
+            "id" : "0000-78cee164-e1d0-4be6-ae23-ef0604945765",
+            "personCategory" : {
+              "id" : "ADULT",
+              "type" : "personCategory"
+            },
+            "code" : "X",
+            "info" : null,
+            "personsIDs" : [ "0000-784efd9c-91c2-481e-870b-08c8c5ec345a" ]
+          } ]
+        } ]
+      } ],
+      "personsIDs" : [ "0000-784efd9c-91c2-481e-870b-08c8c5ec345a" ],
+      "pricing" : {
+        "airlineFee" : 1685.00,
+        "providerFee" : 0,
+        "fare" : 1700.00,
+        "total" : 3385.00,
+        "categoryPrices" : [ {
+          "airlineFee" : 1685.00,
+          "providerFee" : 0,
+          "fare" : 1700.00,
+          "personCategory" : {
+            "id" : "ADULT",
+            "type" : "personCategory"
+          },
+          "personsIDs" : [ "0000-784efd9c-91c2-481e-870b-08c8c5ec345a" ]
+        } ]
+      }
+    },
+    "pricings" : [ {
+      "paymentMethod" : {
+        "id" : "ALFA_CLICK",
+        "type" : "paymentMethod"
+      },
+      "restricted" : false,
+      "restrictionReason" : null,
+      "agentRuFee" : 499,
+      "subagencyFee" : 0,
+      "price" : 3385.00,
+      "total" : 3884.00
+    }, {
+      "paymentMethod" : {
+        "id" : "PLASTIC_CARD",
+        "type" : "paymentMethod"
+      },
+      "restricted" : false,
+      "restrictionReason" : null,
+      "agentRuFee" : 499,
+      "subagencyFee" : 0,
+      "price" : 3385.00,
+      "total" : 3884.00
+    }, {
+      "paymentMethod" : {
+        "id" : "EUROSET",
+        "type" : "paymentMethod"
+      },
+      "restricted" : false,
+      "restrictionReason" : null,
+      "agentRuFee" : 499,
+      "subagencyFee" : 0,
+      "price" : 3385.00,
+      "total" : 3884.00
+    }, {
+      "paymentMethod" : {
+        "id" : "YANDEX_MONEY",
+        "type" : "paymentMethod"
+      },
+      "restricted" : false,
+      "restrictionReason" : null,
+      "agentRuFee" : 499,
+      "subagencyFee" : 0,
+      "price" : 3385.00,
+      "total" : 3884.00
+    }, {
+      "paymentMethod" : {
+        "id" : "WEB_MONEY",
+        "type" : "paymentMethod"
+      },
+      "restricted" : false,
+      "restrictionReason" : null,
+      "agentRuFee" : 499,
+      "subagencyFee" : 0,
+      "price" : 3385.00,
+      "total" : 3884.00
+    }, {
+      "paymentMethod" : {
+        "id" : "QIWI",
+        "type" : "paymentMethod"
+      },
+      "restricted" : false,
+      "restrictionReason" : null,
+      "agentRuFee" : 499,
+      "subagencyFee" : 0,
+      "price" : 3385.00,
+      "total" : 3884.00
+    } ],
+    "persons" : [ {
+      "id" : "0000-784efd9c-91c2-481e-870b-08c8c5ec345a",
+      "personCategory" : {
+        "id" : "ADULT",
+        "type" : "personCategory"
+      }
+    } ]
+  },
+  "dictionary" : {
+    "country" : [ {
+      "id" : "1",
+      "nameRu" : "Россия",
+      "nameEn" : "Russian Federation",
+      "codeIATA" : "RU",
+      "codeSirena" : "РФ"
+    } ],
+    "personCategory" : [ {
+      "id" : "ADULT"
+    } ],
+    "flightGDS" : [ {
+      "id" : "SIRENA"
+    } ],
+    "city" : [ {
+      "id" : "843",
+      "nameRu" : "Архангельск",
+      "nameEn" : "Arkhangelsk",
+      "codeIATA" : "ARH",
+      "codeSirena" : "АРХ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    }, {
+      "id" : "1",
+      "nameRu" : "Москва",
+      "nameEn" : "Moscow",
+      "codeIATA" : "MOW",
+      "codeSirena" : "МОВ",
+      "country" : {
+        "id" : "1",
+        "type" : "country"
+      }
+    } ],
+    "paymentMethod" : [ {
+      "id" : "PLASTIC_CARD"
+    }, {
+      "id" : "EUROSET"
+    }, {
+      "id" : "YANDEX_MONEY"
+    }, {
+      "id" : "QIWI"
+    }, {
+      "id" : "ALFA_CLICK"
+    }, {
+      "id" : "WEB_MONEY"
+    } ],
+    "flightCabinClass" : [ {
+      "id" : "ECONOMIC"
+    } ],
+    "vehicle" : [ {
+      "id" : "47",
+      "nameRu" : "Boeing 737-500",
+      "nameEn" : "Boeing 737-500",
+      "codeIATA" : "735",
+      "codeSirena" : "735"
+    } ],
+    "airline" : [ {
+      "id" : "2470",
+      "nameRu" : "Нордавиа",
+      "nameEn" : null,
+      "codeIATA" : "5N",
+      "codeSirena" : "5Н",
+      "bonusProgramName" : "Аэрофлот Бонус",
+      "hasLogo" : true
+    } ],
+    "airport" : [ {
+      "id" : "19",
+      "nameRu" : "Архангельск",
+      "nameEn" : "Arkhangelsk",
+      "codeIATA" : "ARH",
+      "codeSirena" : "АХГ",
+      "city" : {
+        "id" : "843",
+        "type" : "city"
+      }
+    }, {
+      "id" : "1",
+      "nameRu" : "Шереметьево",
+      "nameEn" : "Sheremetyevo",
+      "codeIATA" : "SVO",
+      "codeSirena" : "ШРМ",
+      "city" : {
+        "id" : "1",
+        "type" : "city"
+      }
+    } ]
+  }
+}

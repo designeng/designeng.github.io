@@ -1,0 +1,17 @@
+<div>
+    {{#if items}}
+        <div class="layoutContent__rowItem_additionals layoutContent__rowItem_type_insurances">
+            <img class="layoutContent__rowItemImg layoutContent__rowItemImg_type_insurances" src="/mobile/static/blocks/layoutContent/alfa-icon.jpg" />
+            <ul class="priceList">
+                {{#each items}}
+                    <li class="priceList__item priceList__itemPrice_type_insuranceProductId_{{ id }}">
+                        <h3 class="priceList__itemHeader priceList__itemHeader_type_insurance">{{ name }}</h3>
+                        <span class="priceRub priceRub_type_mid priceList__itemPrice_type_insurance">
+                            <span class="priceRub__el">{{ price }}</span><span class="priceRub__rub">p</span>
+                        </span>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    {{/if}}
+</div>

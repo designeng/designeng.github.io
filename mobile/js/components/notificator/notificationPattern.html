@@ -1,0 +1,6 @@
+<li data-code="notificator__message__code__{{ code }}" class="notificator__messageItem notificator__messageItem_type_{{type}} {{#if style}} notificator__messageItem_type_{{ style }} {{/if}} ">
+    <p class="notificator__messageText">{{{message}}}</p>
+    {{#if_eq type "error"}}
+        <div class="notificator__bottomLine"></div>
+    {{/if_eq}}
+</li>

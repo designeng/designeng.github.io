@@ -1,0 +1,24 @@
+<div>
+    {{#if canShow}}
+        <div class="layoutContent__row">
+            <div class="layoutContent">
+                <div class="contentList__collection_payment">
+
+                    <ul class="contentList">
+                        {{#each pricing}}
+                            <li class="contentList__item">
+                                <!-- пока не удалять — это класс вместо slotLink чтоб потом не искать -->
+                                <!-- contentList__itemContent_type_link -->
+                                <a href="{{href}}" class="contentList__itemContent contentList__itemContent_type_slotLink">
+                                    <span class="contentList__itemContentLabel contentList__itemContentLabel_payment contentList__itemContentLabel_type_{{ payment.name.class }}">{{payment.name.value}}</span>
+                                </a>
+                            </li>
+                        {{/each}}
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    {{/if}}
+</div>
+

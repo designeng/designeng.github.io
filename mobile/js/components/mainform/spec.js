@@ -1,0 +1,1 @@
+define({$plugins:["wire/on","wire/dom","wire/dom/render","wire/connect"],specMainView:{render:{template:{module:"text!components/mainform/template.html"}},insert:{at:{$ref:"slot"}}},formController:{create:"components/mainform/controller",properties:{mainView:{$ref:"specMainView"}},ready:{onReady:{}}}});

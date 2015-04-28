@@ -1,0 +1,20 @@
+<div class="layoutPage">
+    <div class="layoutContent__row layoutContent__row_type_person">
+
+        <ul class="personInfoList">
+            <li class="personInfoList__item">
+                <span class="personInfoList__itemLabel">пассажир</span>
+                <p class="personInfoList__itemValue personInfoList__itemValue_name">
+                    <span id="typeLocalizedName" class="personInfoList__itemValueText"></span>
+                </p>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="passengerFormWrapper"></div>
+    <div class="validatorForm__passenger 
+        {{#if_eq airCompanyLength 1}}validatorForm__passenger_bonusCard_singleAircompany{{/if_eq}}">
+    </div>
+</div>
+

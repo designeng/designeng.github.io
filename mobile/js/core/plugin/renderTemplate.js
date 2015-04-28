@@ -1,0 +1,1 @@
+define(["underscore"],function(e){return function(t){return{factories:{templateRender:function(t,n,r){var i;return i=[n.options.template,n.options.data],r(i).then(function(n){var r,i;return i=n[0],r=n[1],t.resolve(e.template(i,r))})}}}}});

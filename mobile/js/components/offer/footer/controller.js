@@ -1,0 +1,1 @@
+define(["jquery"],function(e){var t;return t=function(){function t(){}return t.prototype.goToFullVersion=function(t){return sessionStorage.setItem("fullVersion","true"),location.href=e(t.target).attr("href")},t}()});

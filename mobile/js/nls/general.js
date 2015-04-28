@@ -1,0 +1,1 @@
+define({ru:!0,de:!0,es:!0,lv:!0,root:{firstName:"Name",lastName:"Last Name",dateOfBirth:"Date of Birth",citizenship:"Citizenship",documentNumber:"Document Number",validity:"Validity",chooseDate:"choose date",loyaltyCardAirlines:"Loyalty Card Airlines",save:"Save"}});

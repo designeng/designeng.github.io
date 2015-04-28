@@ -1,0 +1,30 @@
+<div class="layoutContent">
+    <div class="layoutContent__header">
+        <h2 class="layoutContent__headerText">Стоимость</h2>
+    </div>
+    <div class="contentList__collection">
+        <ul class="contentList">
+            <li class="contentList__item aviaTiketsPriceItem">
+                <a href="#{{ href }}" class="contentList__itemContent contentList__itemContent_type_slotLink">
+                    <span class="contentList__itemContentLabel">Стоимость авиабилетов</span>
+                    <span class="contentList__itemContentValue">
+                        <span class="priceRub">
+                            <span class="priceRub__el">{{ totalPrice }}</span><span class="priceRub__rub">p</span>
+                        </span>
+                    </span>
+                </a>
+            </li>
+            <li class="contentList__item contentList__item_type_cost">
+                <div class="contentList__itemContent">
+                    <span class="contentList__itemContentLabel">Итого к оплате</span>
+                    <span class="contentList__itemContentValue contentList__itemContentValue_type_big">
+                        <span class="priceRub priceRub_type_big">
+                            <span class="priceRub__el">{{ totalPrice }}</span><span class="priceRub__rub">p</span>
+                        </span>
+                    </span>
+                </div>
+                <div class="contentList__itemContent_type_price"></div>
+            </li>
+        </ul>
+    </div>
+</div>

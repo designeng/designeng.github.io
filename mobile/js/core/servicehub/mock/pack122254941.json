@@ -1,0 +1,465 @@
+{
+  "properties" : {
+    "responseDateTime" : "2015-04-10T06:59:53.477Z",
+    "errors" : [ ],
+    "warnings" : [ ],
+    "info" : [ ]
+  },
+  "data" : {
+    "cpid" : "122254941",
+    "state" : {
+      "id" : "WAITING_FOR_AIRCOMPANY_CONFIRMATION",
+      "type" : "packState"
+    },
+    "services" : {
+      "flights" : [ {
+        "id" : "10935760",
+        "state" : {
+          "id" : "WAITING_FOR_AIRLINE_CONFIRMATION",
+          "type" : "flightState"
+        },
+        "pnr" : "FSYNVM",
+        "gds" : {
+          "id" : "SABRE",
+          "type" : "flightGDS"
+        },
+        "blank" : {
+          "count" : 1,
+          "countPerPassenger" : 1,
+          "holder" : {
+            "id" : "2362",
+            "type" : "airline"
+          }
+        },
+        "cabinClass" : {
+          "id" : "ECONOMIC",
+          "type" : "flightCabinClass"
+        },
+        "leadPassenger" : "R",
+        "passengerCountRestricted" : false,
+        "availabilityConfirmed" : true,
+        "passengerCategoryConfirmedByGDS" : true,
+        "passengerCategoryConfirmedByClient" : false,
+        "international" : true,
+        "leaveTransitZone" : false,
+        "fareInfoAvailable" : true,
+        "receipt" : null,
+        "segments" : [ {
+          "start" : {
+            "location" : {
+              "id" : "18",
+              "type" : "airport"
+            },
+            "terminal" : "4",
+            "dateTime" : "2015-07-10T09:45:00.000"
+          },
+          "end" : {
+            "location" : {
+              "id" : "53",
+              "type" : "airport"
+            },
+            "terminal" : "2E",
+            "dateTime" : "2015-07-10T12:00:00.000"
+          },
+          "duration" : "PT1H15M",
+          "legs" : [ {
+            "start" : {
+              "location" : {
+                "id" : "18",
+                "type" : "airport"
+              },
+              "terminal" : "4",
+              "dateTime" : "2015-07-10T09:45:00.000"
+            },
+            "end" : {
+              "location" : {
+                "id" : "53",
+                "type" : "airport"
+              },
+              "terminal" : "2E",
+              "dateTime" : "2015-07-10T12:00:00.000"
+            },
+            "operatingCompany" : {
+              "id" : "2362",
+              "type" : "airline"
+            },
+            "marketingCompany" : {
+              "id" : "2362",
+              "type" : "airline"
+            },
+            "vehicle" : {
+              "id" : "54",
+              "type" : "vehicle"
+            },
+            "confirmationCode" : null,
+            "stops" : 0,
+            "flightNumber" : "1681",
+            "subclassCode" : "V",
+            "duration" : "PT1H15M",
+            "fares" : [ {
+              "id" : "13184835",
+              "personCategory" : {
+                "id" : "ADULT",
+                "type" : "personCategory"
+              },
+              "code" : "VRD20GB9",
+              "info" : null,
+              "personsIDs" : [ "11236919" ]
+            } ]
+          } ]
+        }, {
+          "start" : {
+            "location" : {
+              "id" : "53",
+              "type" : "airport"
+            },
+            "terminal" : "2E",
+            "dateTime" : "2015-09-25T20:15:00.000"
+          },
+          "end" : {
+            "location" : {
+              "id" : "18",
+              "type" : "airport"
+            },
+            "terminal" : "4",
+            "dateTime" : "2015-09-25T20:30:00.000"
+          },
+          "duration" : "PT1H15M",
+          "legs" : [ {
+            "start" : {
+              "location" : {
+                "id" : "53",
+                "type" : "airport"
+              },
+              "terminal" : "2E",
+              "dateTime" : "2015-09-25T20:15:00.000"
+            },
+            "end" : {
+              "location" : {
+                "id" : "18",
+                "type" : "airport"
+              },
+              "terminal" : "4",
+              "dateTime" : "2015-09-25T20:30:00.000"
+            },
+            "operatingCompany" : {
+              "id" : "2362",
+              "type" : "airline"
+            },
+            "marketingCompany" : {
+              "id" : "2362",
+              "type" : "airline"
+            },
+            "vehicle" : {
+              "id" : "67",
+              "type" : "vehicle"
+            },
+            "confirmationCode" : null,
+            "stops" : 0,
+            "flightNumber" : "1380",
+            "subclassCode" : "V",
+            "duration" : "PT1H15M",
+            "fares" : [ {
+              "id" : "13184836",
+              "personCategory" : {
+                "id" : "ADULT",
+                "type" : "personCategory"
+              },
+              "code" : "VRD20GB9",
+              "info" : null,
+              "personsIDs" : [ "11236919" ]
+            } ]
+          } ]
+        } ],
+        "personsIDs" : [ "11236919" ],
+        "tickets" : [ ],
+        "pricing" : {
+          "airlineFee" : 6994,
+          "providerFee" : 0,
+          "fare" : 170,
+          "total" : 7164,
+          "categoryPrices" : [ {
+            "airlineFee" : 6994,
+            "providerFee" : 0,
+            "fare" : 170,
+            "personCategory" : {
+              "id" : "ADULT",
+              "type" : "personCategory"
+            },
+            "personsIDs" : [ "11236919" ]
+          } ]
+        }
+      } ],
+      "insurances" : [ ],
+      "aeroexpress" : [ ]
+    },
+    "persons" : [ {
+      "id" : "11236919",
+      "firstName" : "L",
+      "lastName" : "R",
+      "sex" : {
+        "id" : "MALE",
+        "type" : "sex"
+      },
+      "birthDate" : "1905-04-05",
+      "document" : {
+        "type" : {
+          "id" : "RUSSIAN_INTERNATIONAL_PASSPORT",
+          "type" : "documentType"
+        },
+        "series" : "12",
+        "number" : "3456789",
+        "expirationDate" : "2018-04-03"
+      },
+      "personCategory" : {
+        "id" : "ADULT",
+        "type" : "personCategory"
+      },
+      "citizenship" : {
+        "id" : "1",
+        "type" : "country"
+      },
+      "bonusCards" : [ ]
+    } ],
+    "invoices" : [ {
+      "id" : "10935021",
+      "timelimit" : "2015-04-10T20:59:00.000Z",
+      "state" : {
+        "id" : "NOT_REGISTERED",
+        "type" : "invoiceState"
+      },
+      "receipts" : [ ],
+      "pricings" : [ {
+        "paymentMethod" : {
+          "id" : "PLASTIC_CARD",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 7164,
+        "total" : 7663
+      }, {
+        "paymentMethod" : {
+          "id" : "EUROSET",
+          "type" : "paymentMethod"
+        },
+        "restricted" : true,
+        "restrictionReason" : {
+          "id" : "EUROSET_PAYMENT_NOT_REGISTERED",
+          "type" : "paymentMethodRestrictionReason"
+        },
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 7164,
+        "total" : 7663
+      }, {
+        "paymentMethod" : {
+          "id" : "YANDEX_MONEY",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 7164,
+        "total" : 7663
+      }, {
+        "paymentMethod" : {
+          "id" : "WEB_MONEY",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 7164,
+        "total" : 7663
+      }, {
+        "paymentMethod" : {
+          "id" : "QIWI",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 7164,
+        "total" : 7663
+      }, {
+        "paymentMethod" : {
+          "id" : "ALFA_CLICK",
+          "type" : "paymentMethod"
+        },
+        "restricted" : false,
+        "restrictionReason" : null,
+        "paymentCode" : null,
+        "agentRuFee" : 499,
+        "subagencyFee" : 0,
+        "price" : 7164,
+        "total" : 7663
+      } ]
+    } ],
+    "contacts" : {
+      "email" : "rostunov@agent.ru",
+      "phone" : "79262815162"
+    }
+  },
+  "dictionary" : {
+    "city" : [ {
+      "id" : "2077",
+      "nameRu" : "Лондон",
+      "nameEn" : "London",
+      "codeIATA" : "LON",
+      "codeSirena" : "ЛОД",
+      "country" : {
+        "id" : "22",
+        "type" : "country"
+      }
+    }, {
+      "id" : "1995",
+      "nameRu" : "Париж",
+      "nameEn" : "Paris",
+      "codeIATA" : "PAR",
+      "codeSirena" : "ПАЖ",
+      "country" : {
+        "id" : "1845",
+        "type" : "country"
+      }
+    } ],
+    "flightGDS" : [ {
+      "id" : "SABRE"
+    } ],
+    "packState" : [ {
+      "id" : "WAITING_FOR_AIRCOMPANY_CONFIRMATION"
+    } ],
+    "invoiceState" : [ {
+      "id" : "NOT_REGISTERED"
+    } ],
+    "paymentMethod" : [ {
+      "id" : "EUROSET"
+    }, {
+      "id" : "PLASTIC_CARD"
+    }, {
+      "id" : "QIWI"
+    }, {
+      "id" : "ALFA_CLICK"
+    }, {
+      "id" : "YANDEX_MONEY"
+    }, {
+      "id" : "WEB_MONEY"
+    } ],
+    "flightCabinClass" : [ {
+      "id" : "ECONOMIC"
+    } ],
+    "personCategory" : [ {
+      "id" : "ADULT"
+    } ],
+    "documentType" : [ {
+      "id" : "RUSSIAN_INTERNATIONAL_PASSPORT",
+      "nameRu" : "Заграничный паспорт",
+      "nameEn" : "Russian foreign passport",
+      "codeSirena" : "ПСП",
+      "russian" : true,
+      "validForInternationalFlights" : true,
+      "hasNumber" : true,
+      "hasSeries" : true,
+      "expirable" : true,
+      "numberValidationMask" : "^[\\d]{7}$",
+      "seriesValidationMask" : "^[\\d]{2}$",
+      "fullValidationMask" : "^[\\d]{2}\\s*[\\d]{7}$",
+      "ageFrom" : 0,
+      "ageTo" : null,
+      "validFor" : [ {
+        "id" : "ADULT",
+        "type" : "personCategory"
+      }, {
+        "id" : "CHILD",
+        "type" : "personCategory"
+      }, {
+        "id" : "INFANT",
+        "type" : "personCategory"
+      }, {
+        "id" : "INFANT_WITH_SEAT",
+        "type" : "personCategory"
+      } ]
+    } ],
+    "country" : [ {
+      "id" : "1845",
+      "nameRu" : "Франция",
+      "nameEn" : "France",
+      "codeIATA" : "FR",
+      "codeSirena" : "ФР"
+    }, {
+      "id" : "22",
+      "nameRu" : "Великобритания",
+      "nameEn" : "United Kingdom",
+      "codeIATA" : "GB",
+      "codeSirena" : "ГБ"
+    }, {
+      "id" : "1",
+      "nameRu" : "Россия",
+      "nameEn" : "Russian Federation",
+      "codeIATA" : "RU",
+      "codeSirena" : "РФ"
+    } ],
+    "airline" : [ {
+      "id" : "2362",
+      "nameRu" : "Air France",
+      "nameEn" : "Air France",
+      "codeIATA" : "AF",
+      "codeSirena" : "AF",
+      "bonusProgramName" : "Flying Blue",
+      "hasLogo" : true
+    } ],
+    "flightState" : [ {
+      "id" : "WAITING_FOR_AIRLINE_CONFIRMATION"
+    } ],
+    "vehicle" : [ {
+      "id" : "67",
+      "nameRu" : "Airbus A320",
+      "nameEn" : "Airbus A320",
+      "codeIATA" : "320",
+      "codeSirena" : "320"
+    }, {
+      "id" : "54",
+      "nameRu" : "Airbus A321",
+      "nameEn" : "Airbus A321",
+      "codeIATA" : "321",
+      "codeSirena" : "321"
+    } ],
+    "sex" : [ {
+      "id" : "MALE"
+    } ],
+    "airport" : [ {
+      "id" : "18",
+      "nameRu" : "Хитроу",
+      "nameEn" : "Heathrow",
+      "codeIATA" : "LHR",
+      "codeSirena" : "ЛХР",
+      "city" : {
+        "id" : "2077",
+        "type" : "city"
+      }
+    }, {
+      "id" : "53",
+      "nameRu" : "Шарль-Де-Голль",
+      "nameEn" : "Charles De Gaulle",
+      "codeIATA" : "CDG",
+      "codeSirena" : "ЦДГ",
+      "city" : {
+        "id" : "1995",
+        "type" : "city"
+      }
+    } ],
+    "paymentMethodRestrictionReason" : [ {
+      "id" : "EUROSET_PAYMENT_NOT_REGISTERED"
+    } ]
+  }
+}

@@ -1,0 +1,1 @@
+define({$plugins:["wire/on","wire/dom","wire/dom/render","core/plugin/form/validate","core/plugin/template/hb"],viewPattern:{module:"hbs!components/offer/customer/template"},populateTemplate:{templateSource:{pattern:{$ref:"viewPattern"},fillWith:""}},customerView:{render:{template:{$ref:"populateTemplate"}},insert:{at:{$ref:"dom.first!#customer",at:"specMainView"}}}});
