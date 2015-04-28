@@ -1,1 +1,0 @@
-define({$plugins:["wire/on","wire/dom","wire/dom/render"],specMainView:{render:{template:"<div></div>"}},aviacost:{wire:{spec:"components/aviacost/spec",provide:{serviceResponse:{$ref:"flightOfferResponse"},serviceName:"flightOfferService"}}}});

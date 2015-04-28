@@ -1,1 +1,0 @@
-define(["core/servicehub/parse/offer/dictionaries/documentTypes"],function(e){var t;return t=function(){function t(){}return t.prototype.afterSendRequest=function(t){var n;return n=new e(t),this.dictionariesDocumentTypesCollection.addSource(n.documentTypes),n},t}()});

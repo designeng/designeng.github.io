@@ -1,1 +1,0 @@
-define(["core/plugin/routing/assets/appRouterController"],function(e){var t;return t=function(){function t(t,n,r){this._route=e.addRoute(t),this.applyRules(n),this.applyHandler(r)}return t.prototype.applyRules=function(e){return this._route.rules=e},t.prototype.applyHandler=function(e){return this._route.matched.add(e)},t}()});

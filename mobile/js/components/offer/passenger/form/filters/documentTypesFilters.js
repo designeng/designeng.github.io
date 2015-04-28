@@ -1,1 +1,0 @@
-define(["underscore","./isRussianDocumentsZoneFilter"],function(e,t){var n,r,i;return n=function(e){return function(e){return!0}},r=function(t){return function(n){return e.find(n.validFor,{id:t,type:"personCategory"})}},i=function(e){return function(t){var n;return e==="1"?n=!0:n=!1,t.russian===n}},{birthDate:n,citizenship:i,russianDocumentsZone:t,category:r}});

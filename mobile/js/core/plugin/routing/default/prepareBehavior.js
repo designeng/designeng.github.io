@@ -1,1 +1,0 @@
-define(["underscore"],function(e){var t;return t=function(t){var n,r,i;if(e.isArray(t))return i=t.length,r=e.reduce(t,function(t,n,r){var s;return r<i-1?s=",":s="",t+=e.pick(n,"method").method+s},"behavior!"),n=e.reduce(t,function(t,n,r){var s,o;return r<i-1?o=",":o="",s=e.pick(n,"args").args,t.push(s),t},[]),t={apply:{$ref:r,args:n}},t;if(e.isObject(t))return t}});

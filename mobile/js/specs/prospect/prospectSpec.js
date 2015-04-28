@@ -1,1 +1,0 @@
-define({$plugins:["core/plugin/routing/appRouterWire","wire/on","wire/dom","wire/dom/render"],groundRoutes:{module:"specs/prospect/routes/groundRoutes"},childRoutes:{module:"specs/prospect/routes/childRoutes"},prospectRouter:{appRouter:{groundRoutes:{$ref:"groundRoutes"},childRoutes:{$ref:"childRoutes"}}}});
