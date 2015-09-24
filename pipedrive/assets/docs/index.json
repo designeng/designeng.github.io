@@ -1,0 +1,48 @@
+{
+    "data":[
+        {   
+            "id": "introduction",
+            "title": "Introduction"
+        },
+        {   
+            "id": "libraries",
+            "title": "Libraries"
+        },
+        {   
+            "id": "contexts",
+            "title": "Wired contexts"
+        },
+        {   
+            "id": "pipedrive-api-app",
+            "title": "Pipedrive-api SPA"
+        },
+        {   
+            "id": "application-create",
+            "title": "Marionette.Application"
+        },
+        {   
+            "id": "router",
+            "title": "Marionette.Router"
+        },
+        {   
+            "id": "layout",
+            "title": "Marionette.LayoutView"
+        },
+        {   
+            "id": "container",
+            "title": "Container"
+        },
+        {   
+            "id": "resolver",
+            "title": "Resolvers"
+        },
+        {   
+            "id": "testing-strategy",
+            "title": "Testing Strategy"
+        },
+        {   
+            "id": "conclusion",
+            "title": "Conclusion"
+        }
+    ]
+}
