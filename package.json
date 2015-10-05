@@ -1,0 +1,12 @@
+{
+  "name": "designeng.github.io",
+  "authors": [
+    "Denis Savenok <denissavenok@gmail.com>"
+  ],
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "scripts":{
+    "start": "node server.js"
+  }
+}
