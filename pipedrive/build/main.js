@@ -30353,7 +30353,7 @@ define('blocks/views/markdown/index',['backbone', 'marionette', 'showdown', 'uti
     MarkdownView.prototype.fetchMarkdownDocument = function(id) {
       var url,
         _this = this;
-      url = "../assets/docs/markdown/" + id + ".md";
+      url = "assets/docs/markdown/" + id + ".md";
       return new AjaxRequest(url, {}, "GET").done(function(response) {
         _this.model.set("text", response);
         return _this.render();
@@ -33906,7 +33906,7 @@ define('wire/lib/context',['require','when','./object','./loader/adapter','./loa
 define('buildAssets',["wire/lib/context", "wire/lib/WireContext", "wire/lib/scope", "wire/lib/plugin/registry", "wire/lib/plugin/defaultPlugins", "wire/lib/graph/DirectedGraph", "wire/lib/graph/trackInflightRefs", "wire/lib/Map", "wire/lib/ComponentFactory", "wire/lib/lifecycle", "wire/lib/resolver", "wire/lib/graph/cyclesTracker", "wire/lib/instantiate", "wire/lib/plugin/wirePlugin", "wire/lib/plugin/basePlugin", "wire/lib/graph/tarjan", "wire/lib/graph/formatCycles", "wire/lib/ObjectProxy", "wire/lib/invoker", "wire/lib/pipeline"], function() {});
 
 require.config({
-  baseUrl: "pipedrive/js",
+  baseUrl: "/pipedrive/js",
   paths: {
     "text": "lib/text",
     "highlight": "lib/highlight/highlight",
