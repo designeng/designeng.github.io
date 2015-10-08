@@ -337,3 +337,10 @@ h3 {
 .field {
   margin-bottom: 4px;
 }
+
+a.github-repo{
+  padding-top: 5px;
+  padding-right: 25px;
+  background: url('../images/loupe-sm.jpg') no-repeat;
+  background-position: right;
+}
