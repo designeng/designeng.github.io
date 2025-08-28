@@ -1,1 +1,1 @@
-[Some link](google.com)
+[Some link](another.md)
